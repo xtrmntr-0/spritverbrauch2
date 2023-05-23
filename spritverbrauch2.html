@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="spritverbrauch2.css" rel="stylesheet">
+    <script src="spritverbrauch2.js"></script>
+
+    <title>Spritverbrauch und Kosten</title>
+</head>
+<body>
+    <section>
+        <div class="container py-5 h-100">
+            <div class="container py-5 h-100">
+                <div class="row d-flex justify-content-center h-100">
+                    <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                        <div class="card bg-dark text-white" style="border-radius: 1rem;">
+                            <div class="card-body p-5 ">
+                                <p class="text-white mb-5">Berechnung Durchschnittsverbrauch und Kosten</p>
+                                    
+                                    <div class="mb-3 mt-3">
+                                        <label for="kilometer" class="form-label">Kilometer:</label>
+                                        <input type="text" class="form-control" id="kilometer" placeholder="gefahrene Kilometer"
+                                               name="kilometer">
+                                    </div>
+                                    <div class="mb-3 mt-3">
+                                        <label for="liter" class="form-label">Liter:</label>
+                                        <input type="text" class="form-control" id="liter" placeholder="Verbrauch in Liter"
+                                               name="liter">
+                                    </div>
+                                    <div class="mb-3 mt-3">
+                                        <label for="durchschnittsverbrauch" class="form-label">Durchschnittsverbrauch:</label>
+                                        <input type="text" class="form-control" id="durchschnittsverbrauch" 
+                                               name="durchschnittsverbrauch">
+                                    </div>
+                                    <div class="mb-3 mt-3">
+                                        <label for="literpreis" class="form-label">Literpreis:</label>
+                                        <input type="text" class="form-control" id="literpreis" placeholder="Literpreis"
+                                               name="literpreis">
+                                    </div>
+                                    <div class="mb-3 mt-3">
+                                        <label for="kosten" class="form-label">Kosten per 100km:</label>
+                                        <input type="text" class="form-control" id="kosten" 
+                                               name="kosten">
+                                    </div>
+
+                                    <button name="berechne" id ="berechne" class="btn btn-outline-light">Berechne</button>
+                               
+
+
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    
+</body>
+</html>
